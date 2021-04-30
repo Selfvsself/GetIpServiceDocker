@@ -7,7 +7,7 @@ RUN apt-get update &&\
  git clone https://github.com/Selfvsself/MyIpService.git &&\
  cd MyIpService/
 
-ENTRYPOINT ["mvn"]
+ENTRYPOINT ["bash"]
 
 EXPOSE 8090
 
