@@ -7,7 +7,7 @@ RUN apt-get update &&\
  git clone https://github.com/Selfvsself/MyIpService.git &&\
  cd MyIpService/
 
-CMD ["cd", "/home/MyIpService/"]
+WORKDIR /home/MyIpService/
 
 EXPOSE 8090
 
